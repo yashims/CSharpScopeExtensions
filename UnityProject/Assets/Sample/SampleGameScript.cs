@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using ScopeExtensions;
 using UnityEngine;
@@ -20,7 +20,7 @@ namespace Sample
 
             // Case: Use scope functions.
             // Function scope is clean without used variables.
-            GetComponent<Transform>().Also((it) =>
+            Transform t2 = GetComponent<Transform>().Also((it) =>
             {
                 it.rotation = new Quaternion().Also((that) =>
                 {
