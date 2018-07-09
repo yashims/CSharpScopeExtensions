@@ -5,10 +5,13 @@ Scope function useful keep clealy code.
 
 # Installation
 
-1. Download unitypackage from [Release Page](https://github.com/yashims/CSharpScopeExtensions/releases) and import it.
+## For Unity
+Download unitypackage from [Release Page](https://github.com/yashims/CSharpScopeExtensions/releases) and import it.
 
-2. Copy source code to your project.
-  * Scope functions are simple. You would understand it quickly.
+## For Other or Unity
+Copy source code to your project.
+* Scope functions are simple. You would understand it quickly.
+* Wellcome PULL REQUEST :beer:
 
 # Exsample
 
@@ -36,7 +39,7 @@ string say(string comment)
 }
 ```
 * If you use C#6.x can use for nullable unwrapping with combination with safe navigation operator.
-* **Perfectory** null-safe in lambda.
+* **Perfectly** null-safe in lambda.
 
 ## Also
 ### Not use Also
