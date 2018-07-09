@@ -29,6 +29,15 @@ float distanceXFromGrandParent = GetComponent<Transform>().Let((it) =>
 * Function scope not make dirty by component temporary variable.
 * 'Let' can use for like LINQ's 'Select'.
 
+```csharp
+string say(string comment)
+{
+    return comment?.Let(it => $"I said: {it}") ?? "";
+}
+```
+* If you use C#6.x can use for nullable unwrapping with combination with safe navigation operator.
+* **Perfectory** null-safe in lambda.
+
 ## Also
 ### Not use Also
 ```csharp
