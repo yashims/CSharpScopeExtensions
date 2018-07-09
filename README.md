@@ -67,5 +67,4 @@ Transform t2 = GetComponent<Transform>().Also((it) =>
 * It clear what about processing.
 
 # Things impossible
-I gave up transplant 'With', 'Run' and 'Apply'.
-Because, I have not idea that way to change 'this' context in lambda.
+I gave up porting 'With', 'Run' and 'Apply'. Because, I don't have idea that way to change 'this' context in lambda.
