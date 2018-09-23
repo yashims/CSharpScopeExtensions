@@ -32,10 +32,10 @@ namespace Sample
 
             // Calculation code scope is so clarity.
             // 'Let' can use for like LINQ's 'Select'.
-            float distanceXFromGrandParent = GetComponent<Transform>().Let((it) =>
+            float distanceXFromGrandParent = GetComponent<Transform>()?.Let((it) =>
             {
-                return it.parent.transform.localPosition.x + it.localPosition.x;
-            });
+                return (it.parent?.transform?.localPosition.x ?? 0) + it.localPosition.x;
+            }) ?? 0;
         }
     }
 }
